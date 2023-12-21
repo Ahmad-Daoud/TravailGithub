@@ -15,7 +15,28 @@ Git est une solution de versioning et de collaboration, créé pour les projets 
 
 ## Stratégies pour développer sur plusieurs branches
 
+#### Pour créer une branche:
+```git checkout -b "nom de la branche"```
 
+
+Cette commande va directement créer une branche et basculer le git sur celle-ci. Ainsi, plus besoin d'utiliser de commande pour basculer sur cette branche.
+
+----
+
+#### Pour basculer sur une autre branche:
+```git checkout "nom de la branche"```
+
+Cette commande permet de changer de branche mais il arrive parfois de ne plus avoir en tête les noms des branches. Dans ce cas il est possible de...
+
+----
+
+#### Visualiser le nom des branches:
+```git branch```
+
+Comme introduit précédemment, cette commande permet de lister vos branches qui ont été "push"
+
+#### Pour fusionner (ou "merger") votre branche vers la branche principale :master:
+=======
 
 ## Github 
 
@@ -29,3 +50,4 @@ En tant que propriétaire, on peut directement se mettre sur la branch main et f
 ```git merge (nom de la branche)```
 
 à partir du main afin d'appliquer les changements sur la branche principale.
+
