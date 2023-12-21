@@ -45,6 +45,12 @@ Comme introduit précédemment, cette commande permet de lister vos branches qui
 Pour clone un projet de github en local on peut utiliser la commande
 ```git clone (lien du repository github)```
 
+### La commande Remote 
+Cette commande nous permet de mettre notre repository local en ligne sur github.
+Afin d'accomplir ceci, on crée une version de notre repo sur github, ensuite on utilise la commande :
+```git remote add origin (lien du repository sur github)```
+
+
 ### Le fichier .gitignore
 Tout les fichiers dont les noms ce trouvent dans le fichier .gitignore seront ignorés par les commandes git push et resteront en local. 
 
