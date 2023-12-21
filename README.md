@@ -1,5 +1,9 @@
 # Notice d'utilisation Git et Github
 
+###### Par Ahmad Daoud | Rémi Renaut | Lucas Bonnaire | Mathys Schmitter
+---
+
+
 Git est une solution de versioning et de collaboration, créé pour les projets logiciels mais capable de travailler sur tout fichier texte.
 
 ## Les commandes Git (en local)
