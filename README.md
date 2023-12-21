@@ -24,6 +24,8 @@ Ainsi, pour supprimer le dernier commit et nettoyer l'historique, il faut utilis
 
 ## Stratégies pour développer sur plusieurs branches
 
+![représentation des branches git](git-branches-merge.png)
+
 #### Pour créer une branche:
 ```git checkout -b "nom de la branche"```
 
