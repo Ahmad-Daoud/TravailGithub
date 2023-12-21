@@ -37,6 +37,14 @@ Cette commande permet de changer de branche mais il arrive parfois de ne plus av
 Comme introduit précédemment, cette commande permet de lister vos branches qui ont été "push"
 
 #### Pour fusionner (ou "merger") votre branche vers la branche principale :master:
+En tant que propriétaire, on peut directement se mettre sur la branch main et faire :\
+```git merge "nom de la branche"```
+
+Par exemple, il est possible de faire ceci à partir du main:\
+```git merge main```\
+afin d'appliquer les changements de la branche principale sur la branche que l'on est entrain de modifier.
+
+
 
 
 ## Github 
@@ -52,13 +60,6 @@ Tout les fichiers dont les noms ce trouvent dans le fichier .gitignore seront ig
 
 #### Si on est un contributeur : 
 Pour ajouter nos changements de branches sur github, si on est pas propriétaire du main, on fait un pull request afin de demander la mise en place du ou des changements.   
-
-#### Si on est le propriétaire : 
-En tant que propriétaire, on peut directement se mettre sur la branch main et faire :
-```git merge (nom de la branche)```
-
-à partir du main afin d'appliquer les changements sur la branche principale.
-
 
 ### Exemples d'utilisations
 
