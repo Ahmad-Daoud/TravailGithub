@@ -14,6 +14,14 @@ Git est une solution de versioning et de collaboration, créé pour les projets 
 L'argument ```--amend``` sert quant à lui à modifier le commit le plus récent en cas d'erreur par exemple.
 
 
+
+#### Nettoyer l'historique :
+Lorsque l'on a un problème avec un git commit, il est possible de supprimer ce commit et de revenir au commit précédent. Pour ce faire, il faut utiliser la commande :\
+```git reset "id du git sur lequel on veux revenir"```
+
+Ainsi, pour supprimer le dernier commit et nettoyer l'historique, il faut utiliser la commande précédente avec l'ID, non pas du dernier mais de l'avant dernier. De cette manière, le dernier commit est supprimé et le repository revient à l'avant dernier commit.
+
+
 ## Stratégies pour développer sur plusieurs branches
 
 #### Pour créer une branche:
@@ -68,12 +76,6 @@ Tout les fichiers dont les noms ce trouvent dans le fichier .gitignore seront ig
 
 #### Si on est un contributeur : 
 Pour ajouter nos changements de branches sur github, si on est pas propriétaire du main, on fait un pull request afin de demander la mise en place du ou des changements.   
-
-#### Nettoyer l'historique :
-Lorsque l'on a un problème avec un git commit, il est possible de supprimer ce commit et de revenir au commit précédent. Pour ce faire, il faut utiliser la commande :\
-```git reset "id du git sur lequel on veux revenir"```
-
-Ainsi, pour supprimer le dernier commit et nettoyer l'historique, il faut utiliser la commande précédente avec l'ID, non pas du dernier mais de l'avant dernier. De cette manière, le dernier commit est supprimé et le repository revient à l'avant dernier commit.
 
 
 #### Si on est le propriétaire : 
