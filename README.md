@@ -12,5 +12,3 @@ Ceci est la section 1
 ## Section 3 
 
 
-
-## Section 4
