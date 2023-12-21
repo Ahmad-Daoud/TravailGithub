@@ -55,9 +55,9 @@ En tant que propriétaire, on peut directement se mettre sur la branch main et f
 
 ### Exemples d'utilisations
 
-Nous avons pour projet de créer un jeu unity, j'ai donc eu la problématique de devoir syncroniser les fichier de projet unity entre mon PC fixe et mon pc portable.
+Nous avons pour projet de créer un jeu Unity, j'ai donc eu la problématique de devoir syncroniser les fichier de projet Unity entre mon PC fixe et mon PC portable.
 
-Git m'a permit de le faire, tout en ignorant les fichiers qui sont inutile à syncroniser avec le fichier git.ignore. 
+Git m'a permit de le faire, tout en ignorant les fichiers qui sont inutile à syncroniser avec le fichier .gitignore. 
 
-Des branches pourront être créé pour segmenter les fonctionnalités à effectuer..
+Des branches pourront être créées pour segmenter les fonctionnalités à effectuer...
 
