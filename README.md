@@ -16,6 +16,8 @@ L'argument ```--amend``` sert quant à lui à modifier le commit le plus récent
 
 ## Stratégies pour développer sur plusieurs branches
 
+![représentation des branches git](git-branches-merge.png)
+
 #### Pour créer une branche:
 ```git checkout -b "nom de la branche"```
 
