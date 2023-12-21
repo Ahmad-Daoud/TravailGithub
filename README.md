@@ -36,6 +36,8 @@ Cette commande permet de changer de branche mais il arrive parfois de ne plus av
 
 Comme introduit précédemment, cette commande permet de lister vos branches qui ont été "push"
 
+----
+
 #### Pour fusionner (ou "merger") votre branche vers la branche principale :master:
 En tant que propriétaire, on peut directement se mettre sur la branch main et faire :\
 ```git merge "nom de la branche"```
