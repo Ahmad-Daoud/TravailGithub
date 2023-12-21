@@ -24,14 +24,14 @@ Cette commande va directement créer une branche et basculer le git sur celle-ci
 
 ----
 
-#### Pour basculer sur une autre branche:
+#### Pour basculer sur une autre branche: \
 ```git checkout "nom de la branche"```
 
 Cette commande permet de changer de branche mais il arrive parfois de ne plus avoir en tête les noms des branches. Dans ce cas il est possible de...
 
 ----
 
-#### Visualiser le nom des branches:
+#### Visualiser le nom des branches: \
 ```git branch```
 
 Comme introduit précédemment, cette commande permet de lister vos branches qui ont été "push"
@@ -42,12 +42,12 @@ Comme introduit précédemment, cette commande permet de lister vos branches qui
 ## Github 
 ### Clone un projet sur github
 
-Pour clone un projet de github en local on peut utiliser la commande
+Pour clone un projet de github en local on peut utiliser la commande \
 ```git clone (lien du repository github)```
 
 ### La commande Remote 
 Cette commande nous permet de mettre notre repository local en ligne sur github.
-Afin d'accomplir ceci, on crée une version de notre repo sur github, ensuite on utilise la commande :
+Afin d'accomplir ceci, on crée une version de notre repo sur github, ensuite on utilise la commande : \
 ```git remote add origin (lien du repository sur github)```
 
 
@@ -60,7 +60,7 @@ Tout les fichiers dont les noms ce trouvent dans le fichier .gitignore seront ig
 Pour ajouter nos changements de branches sur github, si on est pas propriétaire du main, on fait un pull request afin de demander la mise en place du ou des changements.   
 
 #### Si on est le propriétaire : 
-En tant que propriétaire, on peut directement se mettre sur la branch main et faire :
+En tant que propriétaire, on peut directement se mettre sur la branch main et faire : \
 ```git merge (nom de la branche)```
 
 à partir du main afin d'appliquer les changements sur la branche principale.
