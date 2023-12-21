@@ -1,14 +1,14 @@
 # Titre du README
 Edit this file
 
-## Section 1
+## Git en local
 
 Ceci est la section 1
 
-## Section 2 
+## Github 
 
 
 
-## Section 3 
+## Stratégies pour développer sur plusieurs branches
 
 
