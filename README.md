@@ -36,7 +36,7 @@ Cette commande permet de changer de branche mais il arrive parfois de ne plus av
 Comme introduit précédemment, cette commande permet de lister vos branches qui ont été "push"
 
 #### Pour fusionner (ou "merger") votre branche vers la branche principale :master:
-=======
+
 
 ## Github 
 
