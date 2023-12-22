@@ -13,6 +13,7 @@ Git est une solution de versioning et de collaboration, créé pour les projets 
 
 ```git status``` sert à vérifier l'état du projet par rapport à ce qui est enregistré dans les versions.
 
+```git log``` affiche l'historique des commits, leurs id, leurs messages et les changements effectués.
 
 ```git add {file}``` sert à ajouter au 'stage' - c'est à dire au versioning provisoire - les modifications effectuées sur le fichier cible. (création, modification, suppression...).
 
@@ -20,7 +21,7 @@ Git est une solution de versioning et de collaboration, créé pour les projets 
 ```git commit -m "{commentaire}"``` sert à envoyer le contenu actuel du 'stage' dans le projet. Cela crée dans le jargon Git un 'commit'. On peut visualier cela comme une 'étape' du projet.
 L'argument ```--amend``` sert quant à lui à modifier le commit le plus récent en cas d'erreur par exemple.
 
-```git amend -m (id du commit)``` supprime tout les commits après le commit choisi sans supprimer les changements. Cela permet de crée un seul commit organisé pour plusieurs changements, mais peut aussi être utile pour changer le message du commit
+```git amend -m (id du commit)``` supprime tout les commits après le commit choisi sans supprimer les changements. Cela permet de crée un seul commit organisé pour plusieurs changements, mais peut aussi être utile pour changer le message du commit.
 
 
 #### Nettoyer l'historique :
