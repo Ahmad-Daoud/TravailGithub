@@ -66,12 +66,6 @@ Par exemple, il est possible de faire ceci à partir du main:\
 afin d'appliquer les changements de la branche principale sur la branche que l'on est entrain de modifier.
 
 
-#### Nettoyer l'historique :
-Lorsque l'on a un problème avec un git commit, il est possible de supprimer ce commit et de revenir au commit précédent. Pour ce faire, il faut utiliser la commande :\
-```git reset "id du git sur lequel on veux revenir"```
-
-
-Ainsi, pour supprimer le dernier commit et nettoyer l'historique, il faut utiliser la commande précédente avec l'ID, non pas du dernier mais de l'avant dernier. De cette manière, le dernier commit est supprimé et le repository revient à l'avant dernier commit.
 
 
 
