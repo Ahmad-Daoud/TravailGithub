@@ -9,10 +9,13 @@ Git est une solution de versioning et de collaboration, créé pour les projets 
 ## Les commandes Git (en local)
 
 ```git init``` est la première commande à écrire lors de la création d'un projet. Elle sert à initialiser un projet Git dans le répertoire courant.
+---
 
 ```git status``` sert à vérifier l'état du projet par rapport à ce qui est enregistré dans les versions.
+---
 
 ```git add {file}``` sert à ajouter au 'stage' - c'est à dire au versioning provisoire - les modifications effectuées sur le fichier cible. (création, modification, suppression...).
+---
 
 ```git commit -m "{commentaire}"``` sert à envoyer le contenu actuel du 'stage' dans le projet. Cela crée dans le jargon Git un 'commit'. On peut visualier cela comme une 'étape' du projet.
 L'argument ```--amend``` sert quant à lui à modifier le commit le plus récent en cas d'erreur par exemple.
@@ -60,27 +63,34 @@ afin d'appliquer les changements de la branche principale sur la branche que l'o
 
 Pour clone un projet de github en local on peut utiliser la commande \
 ```git clone (lien du repository github)```
+---
 
 ### La commande Remote 
 Cette commande nous permet de mettre notre repository local en ligne sur github.
 Afin d'accomplir ceci, on crée une version de notre repo sur github, ensuite on utilise la commande : \
 ```git remote add origin (lien du repository sur github)```
+---
 
 
 ### Le fichier .gitignore
 Tout les fichiers dont les noms ce trouvent dans le fichier .gitignore seront ignorés par les commandes git push et resteront en local. 
+---
 
 ### Pull requests
 
 #### Si on est un contributeur : 
-Pour ajouter nos changements de branches sur github, si on est pas propriétaire du main, on fait un pull request afin de demander la mise en place du ou des changements.   
-
+Pour ajouter nos changements de branches sur github, si on est pas propriétaire du main, on fait un pull request afin de demander la mise en place du ou des changements.  
+ 
+---
 #### Nettoyer l'historique :
 Lorsque l'on a un problème avec un git commit, il est possible de supprimer ce commit et de revenir au commit précédent. Pour ce faire, il faut utiliser la commande :\
 ```git reset "id du git sur lequel on veux revenir"```
 
+---
+
 Ainsi, pour supprimer le dernier commit et nettoyer l'historique, il faut utiliser la commande précédente avec l'ID, non pas du dernier mais de l'avant dernier. De cette manière, le dernier commit est supprimé et le repository revient à l'avant dernier commit.
 
+---
 
 #### Si on est le propriétaire : 
 En tant que propriétaire, on peut directement se mettre sur la branch main et faire : \
